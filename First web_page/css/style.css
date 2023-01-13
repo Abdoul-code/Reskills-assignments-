@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body, 
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    padding: 2em;
+}
+.top-navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.top-navigation-left{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.top-navigation-links a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    gap: 1em;
+}
+.top-navigation-links{
+    display: flex;
+    gap: 2em;
+}
+
+.top-navigation-right{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.top-navigation-right a{
+    text-decoration: none;
+    color: black;
+}
+
+.top-navigation-right button{
+    border: 1px solid black;
+    background-color: white;
+    width: 150px;
+    padding: 1em;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.landingpage-body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.landingpage-body-left{
+    display: flex;
+    flex-direction: column;
+    gap:2.5rem
+}
+.landingpage-body-left h1{
+    font-size: 62px;
+    font-weight: bold;
+}
+.landingpage-body-left p{
+    width: 700px;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.landingpage-body-left button{
+    border: none;
+    background-color: black;
+    color: white;
+    width: 150px;
+    padding: 1em;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.landingpage-body-right img{
+    width: 500px;
+}
+
+.bottom-page{
+    display: flex;
+    justify-content: space-between;
+}

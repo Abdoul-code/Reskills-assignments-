@@ -1,0 +1,12 @@
+#container{
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+}
+
+.design{
+    position: relative;
+    left: 700px;
+    top: 60px;
+    font-size: 20px;
+}
